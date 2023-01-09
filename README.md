@@ -16,3 +16,8 @@ FSM:
 - Payment -> Dispensing: When the payment is accepted and verified
 - Dispensing -> Idle: When the item is dispensed and the transaction is complete
 
+State and Transition Table: 
+![State and Transition Table](Images/State%20and%20transition%20Table.png)
+
+Karnaugh Map:
+![Karnaugh Map](Images/Karnaugh%20map)
