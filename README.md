@@ -1,5 +1,6 @@
 
 # [Scientific Computing] FSM - Virtual Final Project (Automatic Vending Machine)
+## Andrew Sebastian Sibuea ID2602169711
 
 Here is an example of a real system that can be modelled using an FSM:
 
@@ -26,4 +27,9 @@ Karnaugh Map:
 **3. Combinatorial Boolean equations from K-map:**
 - F = x'y'z + x'yz'
 
+**4. simulation in c:**
+
+![Automatic Vending Machine](Images/Automatic%20vending%20machine.png)
+
+**Decent visualization can be achieved using a graphical representation of the FSM, such as a state diagram, and using a user interface to simulate the system, such as a command line or a graphical user interface.**
  
