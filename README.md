@@ -4,7 +4,7 @@
 
 Here is an example of a real system that can be modelled using an FSM:
 
-**1. The system: Automatic Vending** 
+**1. The system: Automatic Vending Machine** 
 
 **2. Model:**
 
