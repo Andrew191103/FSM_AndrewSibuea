@@ -46,9 +46,24 @@ o0 = s̅0b
 o1 = s̅0s1
 
 
-**4. simulation in c:**
+## 4. simulation in c:
 
-![Automatic Vending Machine](Images/Automatic%20vending%20machine.png)
+I run the code using terminal and enter gcc -o vending_ machine main.c and . /vending machine
+![howtorun](Images/howtorun.png)
 
-**Decent visualization can be achieved using a graphical representation of the FSM, such as a state diagram, and using a user interface to simulate the system, such as a command line or a graphical user interface.**
- 
+After successfully running the code, i typed 1 for the input to open the door of the automatic recycling vending machine.
+![run](Images/run.png)
+
+Now that the door is open, i typed 1 again for the input to insert the item.
+![dooropen](Images/dooropen.png)
+
+The item have been inserted and accepted by the machine.
+![inserted](Images/inserted.png)
+
+And finally the machine will ask you to enter more items or to exit.
+![again?](Images/runagain.png)
+
+And if the item was rejected it ill ask you the same question again.
+![error](Images/rejects.png)
+
+
