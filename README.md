@@ -2,19 +2,14 @@
 # [Scientific Computing] FSM - Virtual Final Project (Automatic Recycling Vending Machine)
 ## Andrew Sebastian Sibuea ID2602169711
 
-Here is an example of a real system that can be modelled using an FSM:
+## Here is an example of a real system that can be modelled using an FSM:
 
-**1. The system: Automatic Recycling Vending Machine** 
+The system: Automatic recycling vending machine
 
-**2. Model:**
 
-FSM:  
-* States: Idle, Item selection, Payment, Dispensing.  
-* Transitions:
-1. Idle -> Item selection: When a customer selects an item
-2. Item Selection -> Payment: When the customer confirms the selection and preceeds to Payment
-3. Payment -> Dispensing: When the payment is accepted and verified 
-4. Dispensing -> Idle: When the item is dispensing and the transaction is complete
+The code simulates the behavior of an automatic recycling vending machine. When the program is run, it repeatedly prompts the user to enter a button input of either 0 or 1. If the user enters 0, the machine's door remains closed and the program continues to prompt for input. If the user enters 1, the machine's door opens, and the program then simulates the insertion of an item into the machine. The machine then randomly decides to either accept or reject the item, and displays the corresponding message ("Machine accepts" or "Machine rejects"). After the item has been processed, the program prompts the user to repeat the process with new inputs. The whole process is designed for an automatic recycling vending machine project.
+
+
 
 ### FSM Diagram: 
 
