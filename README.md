@@ -16,16 +16,35 @@ FSM:
 3. Payment -> Dispensing: When the payment is accepted and verified 
 4. Dispensing -> Idle: When the item is dispensing and the transaction is complete
 
-State and Transition Table: 
+### FSM Diagram: 
 
-![State and Transition Table](Images/State%20and%20transition%20Table.png)
+![FSM Diagram](Images/fsmdiagram.png)
 
-Karnaugh Map:
+### State and Transition Table:
 
-![Karnaugh Map](Images/Karnaugh%20map.png)
+![State and Transition Table](Images/state&transtable.png)
 
-**3. Combinatorial Boolean equations from K-map:**
-- F = x'y'z + x'yz'
+### Karnaugh Map
+- ##### Next State (s0') Karnaugh Map
+![Karnaugh Map1](Images/karnaugh1.png)
+- ##### Next State (s1') Karnaugh Map
+![Karnaugh Map2](Images/karnaugh2.png)
+- ##### Output (o0) Karnaugh Map
+![Karnaugh Map3](Images/karnaugh1.png)
+- ##### Output (o1) Karnaugh Map
+![Karnaugh Map4](Images/karnaugh2.png)
+
+
+## 3. Derive combinatorial boolean equations from K-map
+- #### Next State (s0) Karnaugh Map
+s0' = s̅0b  
+- #### Next State (s1) Karnaugh Map
+s1' = s̅0s1
+- #### Output(o0) Karnaugh Map
+o0 = s̅0b  
+- #### Output(o1) Karnaugh Map
+o1 = s̅0s1
+
 
 **4. simulation in c:**
 
