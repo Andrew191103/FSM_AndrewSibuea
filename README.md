@@ -1,10 +1,10 @@
 
-# [Scientific Computing] FSM - Virtual Final Project (Automatic Vending Machine)
+# [Scientific Computing] FSM - Virtual Final Project (Automatic Recycling Vending Machine)
 ## Andrew Sebastian Sibuea ID2602169711
 
 Here is an example of a real system that can be modelled using an FSM:
 
-**1. The system: Automatic Vending Machine** 
+**1. The system: Automatic Recycling Vending Machine** 
 
 **2. Model:**
 
