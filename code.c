@@ -88,10 +88,7 @@ int main(void) {
         } else {
             machine_closed();
         }
-        printf("Do you want to repeat the program with new inputs? (y/n) ");
-        scanf(" %c", &repeat);
     } while (repeat == 'y');
     printf("Exiting program...\n");
     return 0;
 }
-
