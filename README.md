@@ -13,7 +13,7 @@ The code simulates the behavior of an automatic recycling vending machine. When 
 
 ### FSM Diagram: 
 
-![FSM Diagram](Images/fsmdiagram.png)
+![FSM Diagram](Images/Fsmdiagram.png)
 
 ### State and Transition Table:
 
